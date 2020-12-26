@@ -5,11 +5,19 @@ import Welcome from './component/Welcome';
 import Hello from './component/Hello';
 import Message from './component/Message';
 import Counter from './component/Counter'
+import FunctionClick from './component/FunctionClick'
+import ClassClick from './component/ClassClick';
+import EventBind from './component/EventBind';
+import Table from './component/Table';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      
+      <EventBind />
+      {/* <ClassClick /> */}
+      {/* <FunctionClick /> */}
+      {/* <Counter /> */}
       {/* <Message /> */}
       {/* <Greet name="Ghozi" heroName="Batman">
         <p>This is children props</p>
