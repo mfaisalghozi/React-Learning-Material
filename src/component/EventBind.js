@@ -6,7 +6,7 @@ class EventBind extends Component {
     constructor(props){
         super(props)
         this.state = {
-            message : "Hello"
+            message : "AKU ADALAH HACKER"
         }
         this.clickHandler = this.clickHandler.bind(this)
     }
@@ -15,7 +15,7 @@ class EventBind extends Component {
         this.setState({
             message: "GoodBye !"
         })
-        // console.log(this)
+        // console.log(this)y
     }
 
     clickHandler2 = () =>{
@@ -32,7 +32,7 @@ class EventBind extends Component {
                 {/* <button onClick={()=>this.clickHandler()} >Clicking</button> */}
 
                 {/* //OFFICIAL APPROACH BITJH */}
-                <button onClick={this.clickHandler} >Clicking Safety</button>
+                <button onClick={this.clickHandler} >Clicking Bind From constructor</button>
                 <button onClick={this.clickHandler2}>Arrow Function</button>
 
 
