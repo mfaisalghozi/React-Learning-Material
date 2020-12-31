@@ -4,20 +4,23 @@ import Greet from './component/Greet'
 import Welcome from './component/Welcome';
 import Hello from './component/Hello';
 import Message from './component/Message';
-import Counter from './component/Counter'
-import FunctionClick from './component/FunctionClick'
+import Counter from './component/Counter';
+import FunctionClick from './component/FunctionClick';
 import ClassClick from './component/ClassClick';
 import EventBind from './component/EventBind';
 import Table from './component/Table';
 import ParentComponent from './component/ParentComponent';
 import UserGreeting from './component/UserGreeting';
 import NameList from './component/NameList';
+import Happy_New_Year from './component/Happy_New_Year';
 
 function App() {
   return (
     <div className="App">
       
-      <NameList />
+
+      <Happy_New_Year />
+      {/* <NameList /> */}
       {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
