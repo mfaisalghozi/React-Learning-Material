@@ -32,11 +32,9 @@ function App() {
         <button>Testing</button>
       </Greet>
       <Greet name="Alma" heroName="Catwoman"/>
-
       <Welcome name="Ghozi1" heroName="Batman3"/>
       <Welcome name="Ghozi2" heroName="Batman2"/>
       <Welcome name="Ghozi3" heroName="Batman1"/> */}
-
       {/* <Hello /> */}
     </div>
   );
