@@ -18,7 +18,6 @@ function App() {
   return (
     <div className="App">
       
-
       <Happy_New_Year />
       {/* <NameList /> */}
       {/* <UserGreeting /> */}
